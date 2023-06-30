@@ -40,9 +40,9 @@ body {
   background-color: #ffffff;
 }
 
-/* .container {
-  padding-left: 15px;
-  padding-right: 15px;
+.container {
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 @media screen and (min-width: 375px) {
@@ -63,4 +63,4 @@ body {
   .container {
     width: 1280px;
   }
-} */
+}
