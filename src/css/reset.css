@@ -34,7 +34,13 @@ img {
   height: auto;
 }
 
-.container {
+body {
+  font-family: var(--primary-font);
+  color: var(--praimary-text-color);
+  background-color: #ffffff;
+}
+
+/* .container {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -57,4 +63,4 @@ img {
   .container {
     width: 1280px;
   }
-}
+} */
