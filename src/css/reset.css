@@ -34,15 +34,6 @@ img {
   height: auto;
 }
 
-/* .list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -64,6 +55,6 @@ img {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1158px;
+    width: 1280px;
   }
-} */
+}
