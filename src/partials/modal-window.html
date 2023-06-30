@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <include src="../partials/modal-window.html"></include>
+    <button id="myBtn">Відкрити модальне вікно</button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h1>Your order</h1>
+            <form>
+                <div>
+                    <button type='button' id="btnClose" class='myBtnClose'></button>
+                </div>
+                <div>
+                    <input type="text" id="name" name="name" placeholder="Enter full name">
+                </div>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="Enter email">
+                </div>
+                <div>
+                    <input type="password" id="password" name="password" placeholder="Enter card">
+                </div>
+                <div>
+                    <textarea id="comments" name="comments" placeholder="Enter comments..."></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../main.js"></script>
+</body>
+
+</html>
