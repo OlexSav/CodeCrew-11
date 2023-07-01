@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veggie boost</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    
+    <script type="module" crossorigin src="/CodeCrew-11/assets/index-5413b0c9.js"></script>
+    <link rel="stylesheet" href="/CodeCrew-11/assets/index-109efaf5.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Veggie boost</title>
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
-  
-  <script type="module" crossorigin src="/CodeCrew-11/assets/index-a351f362.js"></script>
-  <link rel="stylesheet" href="/CodeCrew-11/assets/index-109efaf5.css">
-</head>
+  <body>
+    <!-- header -->
+    
 
-<body>
-  <!-- header -->
-  
-
-  <!-- mobile window -->
-  <button type="button" class="myBtn"></button>
+    <!-- mobile window -->
+    <section class="we-will-call-you">
+    <div class="container description-container">
+        <h2  class="title">Fresh Harvest Box has got you covered</h2>
+            <div class="field-container">
+                <p class="text-we-will">Our boxes are packed with delicious, nutritious vegetables, 
+                    perfect for anyone looking to eat healthier or support local farmers. 
+                    Order your box today and start enjoying the best that nature has to offer!</p>
+                <div class="input">
+                <input type="tel" 
+                name="user-phone" 
+                id="user-phone"
+                pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                placeholder="+380 ()"
+                class="recall-input"  
+                required>
+                <button type="submit" class="recall-btn">Recall</button>
+                </div>
+            </div>
+            <div class="pictures-girl">
+            <picture>
+                <source srcset="../images/we-will-call-you-imggirl-desktop@x1.webp 1x, 
+                ../images/we-will-call-you-imggirl-desktop@x2.webp 2x" media="(min-widh: 1280px)"/>
+                <source srcset="../images/we-will-call-you-imggirl-tablet@x1.webp 1x, 
+                ../images/we-will-call-you-imggirl-tablet@x2.webp 2x" media="(min-widh: 768px)"/>
+                 <source srcset="../images/we-will-call-you-imggirl-mobile@x1.webp 1x, 
+                 ../images/we-will-call-you-imggirl-mobile@x2.webp 2x" media="(max-widh: 767px)"/>
+                 <img src="../images/we-will-call-you-imggirl-mobile@x1.webp" alt="girl" class="image-girl"/>
+    </picture>
+</div>
+        </div>
+</section>
+    </main>
+    <!-- footer -->
+    <!-- <button type="button" class="myBtn"></button> -->
 <div id="myModal" class="modal">
   <div class="modal-content">
     <h1 class="form-title">Your order</h1>
@@ -27,28 +61,56 @@
         <button type="button" id="btnClose" class="myBtnClose"></button>
       </div>
       <div class="input-name_box">
-        <input class="input-name" type="text" id="name" name="name" placeholder="Enter full name"
-          pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+" required minlength="2" />
+        <input
+          class="input-name"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter full name"
+          pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+"
+          required
+          minlength="2"
+        />
       </div>
       <div class="email_box">
-        <input class="email" type="email" id="email" name="email" placeholder="Enter email" />
+        <input
+          class="email"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter email"
+        />
       </div>
       <div class="password_box">
-        <input class="password" type="password" id="password" name="password" placeholder="Enter card"
-          pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" required minlength="2" />
+        <input
+          class="password"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter card"
+          pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}"
+          required
+          minlength="2"
+        />
       </div>
       <div class="comments-box">
-        <textarea class="comments" id="comments" name="comments" placeholder="Enter comments..." required
-          minlength="2"></textarea>
+        <textarea
+          class="comments"
+          id="comments"
+          name="comments"
+          placeholder="Enter comments..."
+          required
+          minlength="2"
+        ></textarea>
       </div>
       <div class="submit_box">
         <input class="submit" type="submit" value="Submit" />
-
       </div>
     </form>
   </div>
 </div>
-  
-</body>
 
+
+    
+  </body>
 </html>
