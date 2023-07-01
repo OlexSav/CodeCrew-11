@@ -1,72 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Veggie boost</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
-    
-    <script type="module" crossorigin src="/CodeCrew-11/assets/index-e26b1769.js"></script>
-    <link rel="stylesheet" href="/CodeCrew-11/assets/index-109efaf5.css">
-  </head>
 
-  <body>
-    <!-- header -->
-    
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veggie boost</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+  
+  <script type="module" crossorigin src="/CodeCrew-11/assets/index-a351f362.js"></script>
+  <link rel="stylesheet" href="/CodeCrew-11/assets/index-109efaf5.css">
+</head>
 
-    <!-- mobile window -->
-    <div id="myModal" class="modal">
+<body>
+  <!-- header -->
+  
+
+  <!-- mobile window -->
+  <button type="button" class="myBtn"></button>
+<div id="myModal" class="modal">
   <div class="modal-content">
-    <h1>Your order</h1>
-    <form>
-      <div>
+    <h1 class="form-title">Your order</h1>
+    <form class="form">
+      <div class="button-close_box">
         <button type="button" id="btnClose" class="myBtnClose"></button>
       </div>
-      <div>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Enter full name"
-          pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+"
-          required
-          minlength="2"
-        />
+      <div class="input-name_box">
+        <input class="input-name" type="text" id="name" name="name" placeholder="Enter full name"
+          pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+" required minlength="2" />
       </div>
-      <div>
-        <input type="email" id="email" name="email" placeholder="Enter email" />
+      <div class="email_box">
+        <input class="email" type="email" id="email" name="email" placeholder="Enter email" />
       </div>
-      <div>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="Enter card"
-          pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}"
-          required
-          minlength="2"
-        />
+      <div class="password_box">
+        <input class="password" type="password" id="password" name="password" placeholder="Enter card"
+          pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" required minlength="2" />
       </div>
-      <div>
-        <textarea
-          id="comments"
-          name="comments"
-          placeholder="Enter comments..."
-          required
-          minlength="2"
-        ></textarea>
+      <div class="comments-box">
+        <textarea class="comments" id="comments" name="comments" placeholder="Enter comments..." required
+          minlength="2"></textarea>
       </div>
-      <div>
-        <input type="submit" value="Submit" />
+      <div class="submit_box">
+        <input class="submit" type="submit" value="Submit" />
+
       </div>
     </form>
   </div>
 </div>
+  
+</body>
 
-    
-  </body>
 </html>
