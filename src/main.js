@@ -1,14 +1,13 @@
-const modal = document.getElementById('myModal');
-const btn = document.getElementById('myBtn');
-const span = document.querySelector('.myBtnClose');
-
+const modal = document.querySelector('#myModal');
+// const btn = document.querySelector('.myBtn');
+const btnClose = document.querySelector('.myBtnClose');
 modal.style.display = 'none';
 
-btn.addEventListener('click', () => {
-  modal.style.display = 'block';
-});
+// btn.addEventListener('click', () => {
+//   modal.style.display = 'block';
+// });
 
-span.addEventListener('click', () => {
+btnClose.addEventListener('click', () => {
   modal.style.display = 'none';
 });
 
