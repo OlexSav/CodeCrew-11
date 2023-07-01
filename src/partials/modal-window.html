@@ -19,16 +19,20 @@
                     <button type='button' id="btnClose" class='myBtnClose'></button>
                 </div>
                 <div>
-                    <input type="text" id="name" name="name" placeholder="Enter full name">
+                    <input type="text" id="name" name="name" placeholder="Enter full name"
+                        pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+" required minlength="2">>
                 </div>
                 <div>
-                    <input type="email" id="email" name="email" placeholder="Enter email">
+                    <input type="email" id="email" name="email" placeholder="Enter email"
+                        pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+" required minlength="2">>
                 </div>
                 <div>
-                    <input type="password" id="password" name="password" placeholder="Enter card">
+                    <input type="password" id="password" name="password" placeholder="Enter card"
+                        pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+" required minlength="2">>
                 </div>
                 <div>
-                    <textarea id="comments" name="comments" placeholder="Enter comments..."></textarea>
+                    <textarea id="comments" name="comments" placeholder="Enter comments..." required
+                        minlength="2"></textarea>
                 </div>
                 <div>
                     <input type="submit" value="Submit">
