@@ -19,6 +19,6 @@
 /* we will call you */
 @import url('./we-will-call-you.css');
 /* footer */
-@import url('');
+@import url('./footer.css');
 /* modal window (your order) */
 @import url('');
