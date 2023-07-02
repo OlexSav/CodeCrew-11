@@ -63,6 +63,9 @@
   color: #fff;
   background-color: var(--primary-button-background-color);
   padding: 0 35px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .recall-btn:hover,
