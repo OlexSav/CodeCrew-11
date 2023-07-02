@@ -65,6 +65,10 @@
   padding: 0 35px;
 }
 
+.recall-btn:hover, .recall-btn:focus {
+  background-color:var(--accent-button-background-color);
+}
+
 @media screen and (min-width: 768px) {
   .we-will-call-you-title {
     font-size: 40px;
