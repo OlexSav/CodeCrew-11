@@ -1,0 +1,30 @@
+.how-it-works {}
+
+.how-it-works-box {
+
+}
+
+.how-it-works-title {
+    color: #141414;
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        font-size: 28px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -1.12px;
+        text-transform: uppercase;
+}
+
+.how-it-works-desc {}
+
+.how-it-works-text {
+    color: #141414;
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        font-size: 14px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.56px;
+}
