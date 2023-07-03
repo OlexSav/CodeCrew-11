@@ -10,8 +10,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/CodeCrew-11/assets/index-368463c2.js"></script>
-    <link rel="stylesheet" href="/CodeCrew-11/assets/index-26e5de91.css">
+    <script type="module" crossorigin src="/CodeCrew-11/assets/index-42890ddb.js"></script>
+    <link rel="stylesheet" href="/CodeCrew-11/assets/index-d34ad0a3.css">
   </head>
 
   <body>
@@ -589,35 +589,38 @@
       </ul>
     </div>
   </div>
-  <div class="modal-img_girl">
-    <picture class="modal-picture">
-      <source srcset="/CodeCrew-11/assets/popup-girl@x1-f3a1f91d.webp 1x, /CodeCrew-11/assets/popup-girl@x2-de1619a4.webp 2x" media="(min-width: 768px)" />
-      <img class="img-girl" src="" alt="women" />
-    </picture>
-  </div>
+  <div class="box-input_picture-girl">
+    <div class="input-name_box">
+      <div class="inputs">
+        <input class="enter-input" type="text" id="name" name="name" placeholder="Enter full name..."
+          pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+" required minlength="2" />
+      </div>
 
-  <div class="input-name_box">
-    <div class="inputs">
-      <input class="enter-input" type="text" id="name" name="name" placeholder="Enter full name..."
-        pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+" required minlength="2" />
+      <div class="inputs">
+        <input class="enter-input" type="email" id="email" name="email" placeholder="Enter email..." />
+      </div>
+
+      <div class="inputs">
+        <input class="enter-input" type="password" id="password" name="password" placeholder="Enter card.."
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required minlength="2" />
+      </div>
+
+      <div class="inputs">
+        <textarea class="comments" id="comments" name="comments" placeholder="Enter comments..." required
+          minlength="2"></textarea>
+      </div>
+
+      <div class="inputs">
+        <input class="submit" type="submit" value="Submit" />
+
+      </div>
+
     </div>
-
-    <div class="inputs">
-      <input class="enter-input" type="email" id="email" name="email" placeholder="Enter email..." />
-    </div>
-
-    <div class="inputs">
-      <input class="enter-input" type="password" id="password" name="password" placeholder="Enter card.."
-        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required minlength="2" />
-    </div>
-
-    <div class="inputs">
-      <textarea class="comments" id="comments" name="comments" placeholder="Enter comments..." required
-        minlength="2"></textarea>
-    </div>
-
-    <div class="inputs">
-      <input class="submit" type="submit" value="Submit" />
+    <div class="modal-img_girl">
+      <picture class="modal-picture">
+        <source srcset="/CodeCrew-11/assets/popup-girl@x1-f3a1f91d.webp 1x, /CodeCrew-11/assets/popup-girl@x2-de1619a4.webp 2x" media="(min-width: 768px)" />
+        <img class="img-girl" src="" alt="women" />
+      </picture>
     </div>
   </div>
   </form>
