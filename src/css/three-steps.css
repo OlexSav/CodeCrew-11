@@ -93,7 +93,7 @@
     width: 349px;
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
     .three-steps {
         width: auto;
         height: 100%;
@@ -101,7 +101,7 @@
     }
 
     .container-three-steps {
-        background-image: url(../images/three-steps-mobile-bg1x.webp);
+        background-image: url(./images/three-steps-mobile-bg1x.webp);
         background-size: cover;
         flex-direction: column-reverse;
         align-items: center;
@@ -112,11 +112,13 @@
         margin-left: 20px;
         margin-right: 20px;
         gap: 20px;
+        overflow: hidden;
     }
 
     .three-steps-title {
         width: 100%;
         text-align: center;
+        font-size: 24px;
     }
 
     .three-steps-right {
@@ -152,7 +154,6 @@
         height: auto;
         background-size: cover;
         background-position: center;
-        z-index: 4;
     }
 }
 
@@ -193,7 +194,6 @@
         left: 39px;
         background-size: cover;
         background-position: center;
-        z-index: 4;
         padding-top: 20px;
     }
 
@@ -228,7 +228,7 @@ screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
     .container-three-steps {
-        background-image: url(../images/three-steps-mobile-bg2x.webp);
+        background-image: url(./images/three-steps-mobile-bg2x.webp);
     }
 
 }
@@ -248,11 +248,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         flex-wrap: wrap;
         align-items: flex-start;
         gap: 40px;
-        padding-left: 0;
         padding-top: 0;
-        padding-right: 40px;
-        margin-left: 32px;
-        margin-right: 32px;
+        padding-right: 32px;
+        padding-left: 32px;
         margin: 0 auto;
     }
 
@@ -267,7 +265,6 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         padding-top: 40px;
         top: auto;
         left: auto;
-        z-index: 4;
         top: 0;
     }
 
@@ -313,7 +310,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .container-three-steps {
-        background-image: url(../images/three-steps-tablet-bg2x.webp);
+        background-image: url(./images/three-steps-tablet-bg2x.webp);
     }
 }
 
@@ -321,17 +318,13 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 @media screen and (min-width: 1280px) {
     .container-three-steps {
-        background-image: url(../images/three-steps-desktop-bg1x.webp);
+        background-image: url(./images/three-steps-desktop-bg1x.webp);
         padding-left: 80px;
         border-radius: 80px;
         display: flex;
         gap: 110px;
         height: 460px;
         width: 1216px;
-    }
-
-    .img-three-steps {
-        padding-top: 38px;
     }
 
     .three-steps-title {
@@ -361,6 +354,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 screen and (min-resolution: 192dpi) and (min-width: 1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     .container-three-steps {
-        background-image: url(../images/three-steps-desktop-bg2x.webp)
+        background-image: url(./images/three-steps-desktop-bg2x.webp)
     }
 }
