@@ -7,13 +7,13 @@
 /* header */
 @import url('./header.css');
 /* hero */
-@import url('');
+@import url('./hero.css');
 /* mobile window */
-@import url('');
+@import url('./mobile-window.css');
 /* how it works */
 @import url('./how-it-works.css');
 /* three steps */
-@import url('');
+@import url('./three-steps.css');
 /* vegetables */
 @import url('./vegetables.css');
 /* we will call you */
