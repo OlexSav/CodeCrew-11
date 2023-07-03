@@ -100,38 +100,41 @@
       </ul>
     </div>
   </div>
-  <div class="modal-img_girl">
-    <picture class="modal-picture">
-      <source srcset="
-            ./images/popup-girl@x1.webp 1x,
-            ./images/popup-girl@x2.webp 2x
-          " media="(min-width: 768px)" />
-      <img class="img-girl" src="" alt="women" />
-    </picture>
-  </div>
+  <div class="box-input_picture-girl">
+    <div class="input-name_box">
+      <div class="inputs">
+        <input class="enter-input" type="text" id="name" name="name" placeholder="Enter full name..."
+          pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+" required minlength="2" />
+      </div>
 
-  <div class="input-name_box">
-    <div class="inputs">
-      <input class="enter-input" type="text" id="name" name="name" placeholder="Enter full name..."
-        pattern="[A-Za-zА-Яа-яЁёіїєґҐ\s]+" required minlength="2" />
+      <div class="inputs">
+        <input class="enter-input" type="email" id="email" name="email" placeholder="Enter email..." />
+      </div>
+
+      <div class="inputs">
+        <input class="enter-input" type="password" id="password" name="password" placeholder="Enter card.."
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required minlength="2" />
+      </div>
+
+      <div class="inputs">
+        <textarea class="comments" id="comments" name="comments" placeholder="Enter comments..." required
+          minlength="2"></textarea>
+      </div>
+
+      <div class="inputs">
+        <input class="submit" type="submit" value="Submit" />
+
+      </div>
+
     </div>
-
-    <div class="inputs">
-      <input class="enter-input" type="email" id="email" name="email" placeholder="Enter email..." />
-    </div>
-
-    <div class="inputs">
-      <input class="enter-input" type="password" id="password" name="password" placeholder="Enter card.."
-        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required minlength="2" />
-    </div>
-
-    <div class="inputs">
-      <textarea class="comments" id="comments" name="comments" placeholder="Enter comments..." required
-        minlength="2"></textarea>
-    </div>
-
-    <div class="inputs">
-      <input class="submit" type="submit" value="Submit" />
+    <div class="modal-img_girl">
+      <picture class="modal-picture">
+        <source srcset="
+                        ./images/popup-girl@x1.webp 1x,
+                        ./images/popup-girl@x2.webp 2x
+                      " media="(min-width: 768px)" />
+        <img class="img-girl" src="" alt="women" />
+      </picture>
     </div>
   </div>
   </form>
