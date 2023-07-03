@@ -93,7 +93,7 @@
     width: 349px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 374px) {
+@media screen and (max-width: 374px) {
     .three-steps {
         width: auto;
         height: 100%;
@@ -160,7 +160,7 @@
 
 @media screen and (min-width: 375px) {
     .container-three-steps {
-        background-image: url(../images/three-steps-mobile-bg1x.webp);
+        background-image: url(./images/three-steps-mobile-bg1x.webp);
         width: 335px;
         margin-left: 20px;
         margin-right: 20px;
@@ -238,7 +238,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 @media screen and (min-width: 768px) {
 
     .container-three-steps {
-        background-image: url(../images/three-steps-tablet-bg1x.webp);
+        background-image: url(./images/three-steps-tablet-bg1x.webp);
         background-size: cover;
         width: 768px;
         height: 488px;
