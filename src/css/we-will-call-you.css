@@ -1,6 +1,5 @@
 .description-container {
   text-align: center;
-  /* margin-top: 80px; */
   margin-bottom: 80px;
 }
 
@@ -65,7 +64,6 @@
   padding: 0 35px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .recall-btn:hover,
@@ -74,6 +72,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .description-container {
+    margin-bottom: 172px;
+  }
+
   .we-will-call-you-title {
     font-size: 40px;
     font-weight: 500;
@@ -98,6 +100,7 @@
   .description-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 124px;
   }
   .desktop-description-container {
     text-align: start;
