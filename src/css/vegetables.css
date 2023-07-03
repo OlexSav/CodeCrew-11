@@ -253,6 +253,10 @@
     height: 465px;
   }
 
+  .link-plant {
+    width: 100%;
+  }
+
   .item-img {
     height: auto;
     max-height: unset;
