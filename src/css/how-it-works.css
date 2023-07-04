@@ -10,7 +10,7 @@
     color: #141414;
     text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
     font-size: 28px;
-    font-family: DM Sans;
+   
     font-style: normal;
     font-weight: 500;
     line-height: 1.43;
@@ -35,7 +35,7 @@
     color: #141414;
     text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
     font-size: 14px;
-    font-family: DM Sans;
+    
     font-style: normal;
     font-weight: 400;
     line-height: 1.29;
@@ -53,7 +53,7 @@
         color: #141414;
         text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-size: 40px;
-        font-family: DM Sans;
+        
         font-style: normal;
         font-weight: 500;
         line-height: 1.1;
@@ -83,7 +83,7 @@
         color: #141414;
         text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-size: 18px;
-        font-family: DM Sans;
+        
         font-style: normal;
         font-weight: 400;
         line-height: 1.33;
@@ -97,7 +97,7 @@
         color: #141414;
         text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-size: 48px;
-        font-family: DM Sans;
+        
         font-style: normal;
         font-weight: 500;
         line-height: 1.04;
@@ -121,11 +121,15 @@
         color: #141414;
         text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         font-size: 18px;
-        font-family: DM Sans;
+        
         font-style: normal;
         font-weight: 400;
         line-height: 1.33;
         letter-spacing: -0.72px;
         width: 353px;
+    }
+
+    .desct-text {
+        width: 294px;
     }
 }
