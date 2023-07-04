@@ -92,8 +92,8 @@
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  border-color: #a1c487;
   color: #a1c487;
+  border-color: #a1c487;
 }
 
 .footer-social-icon {
