@@ -6,14 +6,13 @@
 .container-three-steps {
   padding-left: 80px;
   padding-right: 80px;
-  border-radius: 40px;
+  border-radius: 80px;
   display: flex;
   gap: 110px;
 }
 
 .three-steps-title {
   color: var(--praimary-text-color);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   width: auto;
   margin-bottom: 40px;
   font-size: 40px;
@@ -25,7 +24,6 @@
 
 .three-steps-list {
   color: var(--praimary-text-color);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.3;
@@ -92,7 +90,7 @@
   width: 349px;
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .three-steps {
     width: auto;
     height: 100%;
@@ -100,7 +98,6 @@
 
   .container-three-steps {
     background-image: url(../images/three-steps-mobile-bg1x.webp);
-    border-radius: 40px;
     background-size: cover;
     flex-direction: column-reverse;
     align-items: center;
@@ -124,10 +121,7 @@
     width: 100%;
     padding-top: 40px;
   }
-  .three-steps-list {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+
   .text-container-1,
   .text-container-2,
   .text-container-3 {
@@ -167,6 +161,7 @@
     margin-left: 20px;
     margin-right: 20px;
     height: 661px;
+    border-radius: 40px;
     position: relative;
     gap: 0;
     padding-top: 40px;
@@ -182,9 +177,7 @@
     letter-spacing: -0.96px;
     width: 295px;
   }
-  .three-steps-list {
-    padding-left: 0;
-  }
+
   .three-steps-right {
     padding: 0;
     width: 295px;
@@ -194,6 +187,8 @@
     position: absolute;
     top: 321px;
     left: 39px;
+    background-size: cover;
+    background-position: center;
     padding-top: 20px;
   }
 
@@ -227,13 +222,16 @@
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .container-three-steps {
     background-image: url(../images/three-steps-mobile-bg2x.webp);
-    background-size: cover;
   }
 }
 
 /*===================--------TABLET-----=================================*/
 
 @media screen and (min-width: 768px) {
+  .three-steps {
+    padding: 0 32px;
+  }
+
   .container-three-steps {
     background-image: url(../images/three-steps-tablet-bg1x.webp);
     background-size: cover;
@@ -246,8 +244,6 @@
     align-items: flex-start;
     gap: 40px;
     padding-top: 0;
-    padding-right: 32px;
-    padding-left: 32px;
     margin: 0 auto;
   }
 
