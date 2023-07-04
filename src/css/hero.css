@@ -49,7 +49,7 @@
     justify-content: center;
 
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
     font-weight: 400;
     font-size: 8px;
     line-height: 0.8;
@@ -92,7 +92,7 @@
     margin-bottom: 20px;
 
     color: #FFF;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
@@ -112,7 +112,7 @@
 
     color: #FC8A11;
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -150,7 +150,7 @@
 
     color: #FFF;
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
 
     font-weight: 500;
     font-size: 10px;
@@ -245,7 +245,7 @@
         column-gap: 4px;
         row-gap: 8px;
 
-        width: 214px;
+        min-width: 214px;
     }
 
     .tag-item {
@@ -355,7 +355,7 @@
         column-gap: 8px;
         row-gap: 8px;
 
-        width: 266px;
+        min-width: 266px;
     }
 
     .tag-item {
