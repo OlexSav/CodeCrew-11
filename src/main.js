@@ -1,11 +1,16 @@
 const modal = document.querySelector('#myModal');
-// const btn = document.querySelector('.myBtn');
+const btn = document.querySelector('.btn-order');
+const heroBtn = document.querySelector('.hero-btn');
 const btnClose = document.querySelector('.myBtnClose');
 modal.style.display = 'none';
 
-// btn.addEventListener('click', () => {
-//   modal.style.display = 'block';
-// });
+btn.addEventListener('click', () => {
+  modal.style.display = 'block';
+});
+
+heroBtn.addEventListener('click', () => {
+  modal.style.display = 'block';
+});
 
 btnClose.addEventListener('click', () => {
   modal.style.display = 'none';

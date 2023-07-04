@@ -7,18 +7,18 @@
 /* header */
 @import url('./header.css');
 /* hero */
-@import url('');
+@import url('./hero.css');
 /* mobile window */
-@import url('');
+@import url('./mobile-window.css');
 /* how it works */
-@import url('');
+@import url('./how-it-works.css');
 /* three steps */
-@import url('');
+@import url('./three-steps.css');
 /* vegetables */
-@import url('');
+@import url('./vegetables.css');
 /* we will call you */
 @import url('./we-will-call-you.css');
 /* footer */
 @import url('./footer.css');
 /* modal window (your order) */
-@import url('');
+@import url('./modal-window.css');
