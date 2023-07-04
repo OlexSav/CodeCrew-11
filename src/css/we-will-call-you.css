@@ -1,6 +1,5 @@
 .description-container {
   text-align: center;
-  /* margin-top: 80px; */
   margin-bottom: 80px;
 }
 
@@ -63,6 +62,8 @@
   color: #fff;
   background-color: var(--primary-button-background-color);
   padding: 0 35px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .recall-btn:hover,
@@ -71,6 +72,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .description-container {
+    margin-bottom: 172px;
+  }
+
   .we-will-call-you-title {
     font-size: 40px;
     font-weight: 500;
@@ -95,6 +100,7 @@
   .description-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 124px;
   }
   .desktop-description-container {
     text-align: start;
@@ -113,6 +119,7 @@
   }
   .text-we-will {
     margin-bottom: 80px;
+    margin-right: 90px;
     padding: 0;
   }
   .field-container {
@@ -130,5 +137,42 @@
   }
   .recall-btn {
     height: 48px;
+  }
+}
+
+
+/* ------back-to-top------------ */
+
+
+
+.back-to-top-link {
+  position: fixed; 
+  bottom: 50px;
+  right: 50px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--accent-button-background-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+.back-to-top-link:hover,
+.back-to-top-link:focus {
+  background-color: var(--primary-button-background-color);
+  transform: scale(1.1);
+}
+
+.back-to-top-icon{
+  fill: #ffffff;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
   }
 }
