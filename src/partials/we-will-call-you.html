@@ -1,31 +1,68 @@
 <section class="we-will-call-you">
-    <div class="container description-container">
-        <h2  class="title">Fresh Harvest Box has got you covered</h2>
-            <div class="field-container">
-                <p class="text-we-will">Our boxes are packed with delicious, nutritious vegetables, 
-                    perfect for anyone looking to eat healthier or support local farmers. 
-                    Order your box today and start enjoying the best that nature has to offer!</p>
-                <div class="input">
-                <input type="tel" 
-                name="user-phone" 
-                id="user-phone"
-                pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-                placeholder="+380 ()"
-                class="recall-input"  
-                required>
-                <button type="submit" class="recall-btn">Recall</button>
-                </div>
-            </div>
-            <div class="pictures-girl">
-            <picture>
-                <source srcset="../images/we-will-call-you-imggirl-desktop@x1.webp 1x, 
-                ../images/we-will-call-you-imggirl-desktop@x2.webp 2x" media="(min-widh: 1280px)"/>
-                <source srcset="../images/we-will-call-you-imggirl-tablet@x1.webp 1x, 
-                ../images/we-will-call-you-imggirl-tablet@x2.webp 2x" media="(min-widh: 768px)"/>
-                 <source srcset="../images/we-will-call-you-imggirl-mobile@x1.webp 1x, 
-                 ../images/we-will-call-you-imggirl-mobile@x2.webp 2x" media="(max-widh: 767px)"/>
-                 <img src="../images/we-will-call-you-imggirl-mobile@x1.webp" alt="girl" class="image-girl"/>
-    </picture>
-</div>
+  <div class="container description-container">
+    <div class="desktop-description-container">
+      <h2 class="we-will-call-you-title">
+        Fresh Harvest Box has got you covered
+      </h2>
+      <div class="field-container">
+        <p class="text-we-will">
+          Our boxes are packed with delicious, nutritious vegetables, perfect
+          for anyone looking to eat healthier or support local farmers. Order
+          your box today and start enjoying the best that nature has to offer!
+        </p>
+        <div class="input-we-will">
+          <input
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+            placeholder="+380 ()"
+            class="recall-input"
+            required
+          />
+          <button type="submit" class="recall-btn">Recall</button>
         </div>
+      </div>
+    </div>
+    <div class="pictures-girl-we-will">
+      <picture>
+        <source
+          srcset="
+            ./images/we-will-call-you-imggirl-desktop@x1.webp 1x,
+            ./images/we-will-call-you-imggirl-desktop@x2.webp 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./images/we-will-call-you-imggirl-tablet@x1.webp 1x,
+            ./images/we-will-call-you-imggirl-tablet@x2.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/we-will-call-you-imggirl-mobile@x1.webp 1x,
+            ./images/we-will-call-you-imggirl-mobile@x2.webp 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="./images/we-will-call-you-imggirl-mobile@x1.webp 1x"
+          alt="girl"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
+
+
+
+<div class="back-to-top-wrapper">
+  <a class="back-to-top-link link" href="#top">
+    <svg class="back-to-top-icon" width="32" height="32">
+      <use href="../images/icons.svg#icon-arrow-up"></use>
+    </svg>
+  </a>
+</div>
+
