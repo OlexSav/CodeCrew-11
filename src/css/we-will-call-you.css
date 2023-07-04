@@ -5,6 +5,7 @@
 
 .we-will-call-you-title {
   color: var(--primary-text-color);
+  text-shadow: 0px 4px 70px rgba(0,0,0,.1);
   font-weight: 500;
   font-size: 24px;
   line-height: 1.16;
@@ -19,6 +20,7 @@
 
 .text-we-will {
   color: var(--primary-text-color);
+  text-shadow: 0px 4px 70px rgba(0,0,0,0.1);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -147,11 +149,12 @@
 
 .back-to-top-link {
   position: fixed; 
-  bottom: 50px;
-  right: 50px;
-  width: 80px;
-  height: 80px;
-  background-color: var(--accent-button-background-color);
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary-button-background-color);
+  opacity: 0.6;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -163,13 +166,23 @@
 
 .back-to-top-link:hover,
 .back-to-top-link:focus {
-  background-color: var(--primary-button-background-color);
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .back-to-top-icon{
   fill: #ffffff;
 }
+
+@media screen and (min-width: 768px) {
+  .back-to-top-link {
+    bottom: 40px;
+  right: 40px;
+  width: 70px;
+  height: 70px;
+  }
+}
+
+
 
 @media screen and (prefers-reduced-motion: no-preference) {
   html {
