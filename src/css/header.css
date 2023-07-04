@@ -97,7 +97,7 @@
   justify-content: center;
   margin: auto;
 }
-.header-logo {
+.header-logo-text {
   color: #141414;
   text-align: center;
   font-size: 14px;
@@ -106,6 +106,13 @@
   font-weight: 700;
   line-height: 18px;
   letter-spacing: -0.56px;
+}
+
+.header-logo {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-logo-icon {
@@ -129,6 +136,13 @@
 .menu-cart-icon {
   stroke: var(--header-text-title);
   fill: #fff;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-cart-btn:is(:hover, :focus) > .menu-cart-icon {
+  stroke: var(--header-logo-color);
 }
 
 .header-menu-logo-wrap {
@@ -143,6 +157,7 @@
 
 .mob-menu {
   width: 100%;
+  min-width: 320px;
   height: 100%;
   position: fixed;
   top: 0;
@@ -304,6 +319,10 @@
   }
 
   .menu-open-btn {
+    display: none;
+  }
+
+  .mob-menu {
     display: none;
   }
 }
