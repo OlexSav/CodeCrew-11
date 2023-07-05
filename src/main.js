@@ -1,6 +1,7 @@
 const modal = document.querySelector('#myModal');
 const btn = document.querySelector('.btn-order');
 const heroBtn = document.querySelector('.hero-btn');
+const headerButn = document.querySelector('.header-butn');
 const btnClose = document.querySelector('.myBtnClose');
 modal.style.display = 'none';
 
@@ -9,6 +10,10 @@ btn.addEventListener('click', () => {
 });
 
 heroBtn.addEventListener('click', () => {
+  modal.style.display = 'block';
+});
+
+headerButn.addEventListener('click', () => {
   modal.style.display = 'block';
 });
 
