@@ -125,7 +125,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.29;
-  /* text-transform: uppercase; */
   letter-spacing: -0.28px;
 }
 
@@ -166,7 +165,6 @@
   .footer-container {
     max-width: 1280px;
     justify-content: flex-start;
-    /* position: relative; */
   }
   .footer-logo-menu {
     position: relative;
@@ -197,13 +195,11 @@
   }
 
   .footer-menu-link {
-    /* position: absolute; */
     top: 164px;
     left: 547px;
   }
 
   .footer-address-menu {
-    /* position: absolute; */
     top: 164px;
   }
 }
