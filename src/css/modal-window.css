@@ -60,18 +60,21 @@
     height: 85%;
     z-index: 5;
 
-    overflow: scroll;
+    overflow-y: scroll;
     display: block;
   }
 }
-
+@media screen and (min-height: 911px) {
+  .modal {
+    height: 853px;
+  }
+}
 @media screen and (min-width: 1279px) {
   .modal {
     width: 891px;
     height: 911px;
-    height: 85%;
-    overflow: scroll;
     display: block;
+    overflow-y: hidden;
   }
 }
 
@@ -380,4 +383,14 @@
     right: 14px;
     z-index: 5;
   }
+}
+.modal-item:hover {
+  cursor: pointer;
+}
+.modal-img {
+  transition: transform 0.3s ease;
+}
+
+.modal-item:hover .modal-img {
+  transform: scale(1.1);
 }
