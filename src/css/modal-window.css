@@ -4,7 +4,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   width: 335px;
-  min-height: 903px;
+  /* min-height: 903px; */
   border-radius: 20px;
   background: #fcfcfc;
   padding: 20px;
@@ -16,6 +16,11 @@
     0px 0px 223px 0px rgba(0, 0, 0, 0.05);
   overflow: hidden;
   z-index: 5;
+  /*  */
+  overflow: scroll;
+  display: block;
+  height: 85%;
+  /*  */
 }
 
 .modal-checkbox {
@@ -53,8 +58,10 @@
     width: 704px;
     height: 853px;
     padding: 40px;
-  }
 
+    overflow: hidden;
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 1279px) {
@@ -62,7 +69,6 @@
     width: 891px;
     height: 911px;
   }
-
 }
 
 .box-title-button {
@@ -72,7 +78,7 @@
 
 .form-title {
   color: #141414;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 28px;
   font-family: DM Sans;
   font-style: normal;
@@ -81,8 +87,6 @@
   letter-spacing: -1.12px;
   text-transform: uppercase;
 }
-
-
 
 @media screen and (min-width: 1280px) {
   .form-title {
@@ -191,7 +195,7 @@
 
 .modal-checkbox-icon:hover,
 .modal-checkbox-icon:focus {
-  stroke: #A1C487;
+  stroke: #a1c487;
 }
 
 @media screen and (min-width: 767px) {
@@ -260,7 +264,7 @@
 
 .submit {
   border-radius: 100px;
-  background: #fc8a11;
+  background-color: #fc8a11;
   width: 92px;
   height: 42px;
   border: none;
@@ -272,7 +276,19 @@
   line-height: 18px;
   letter-spacing: -0.56px;
   text-transform: capitalize;
+  /*  */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*  */
 }
+
+/*  */
+.submit:focus,
+.submit:hover {
+  outline: none;
+  background-color: #a1c487;
+}
+/*  */
 
 @media screen and (min-width: 767px) {
   .submit {
@@ -297,21 +313,26 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-@media screen and (max-width: 1279px) {
+/*  */
+.img-girl {
+  display: none;
+}
+/*  */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .img-girl {
     position: absolute;
     bottom: 0;
     right: -154px;
+    display: block;
   }
-
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1280px) {
   .img-girl {
     bottom: 0px;
     position: absolute;
     right: 0;
+    display: block;
   }
 
   .vegetables-title {
@@ -331,16 +352,17 @@
   pointer-events: none;
 }
 
-.modal-checkbox-input {}
+.modal-checkbox-input {
+}
 
 .modal-checkbox-label {
   fill: none;
   stroke: none;
 }
 
-.modal-checkbox-input:checked+.modal-checkbox-label {
+.modal-checkbox-input:checked + .modal-checkbox-label {
   fill: none;
-  stroke: #A1C487;
+  stroke: #a1c487;
 }
 
 .check-castom {
@@ -351,7 +373,7 @@
   width: 16px;
   height: 16px;
   border-radius: 4px;
-  border: 1.5px solid #A1C487;
+  border: 1.5px solid #a1c487;
   display: flex;
   align-items: center;
   justify-content: center;

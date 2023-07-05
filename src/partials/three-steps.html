@@ -1,6 +1,40 @@
 <section class="three-steps">
-    <div class="container container-three-steps">
-
+  <div class="container container-three-steps">
+    <picture>
+      <source
+        srcset="
+          ./images/three-steps-girl-desktop@x1.webp 1x,
+          ./images/three-steps-girl-desktop@x2.webp 2x
+        "
+        media="(min-width: 1280px)"
+        type="image/webp"
+      />
+      <source
+        srcset="
+          ./images/three-steps-girl-tablet@x1.webp 1x,
+          ./images/three-steps-girl-tablet@x2.webp 2x
+        "
+        media="(min-width: 768px)"
+        type="image/webp"
+      />
+      <source
+        srcset="
+          ./images/three-steps-girl-mobile@x1.webp 1x,
+          ./images/three-steps-girl-mobile@x2.webp 2x
+        "
+        media="(max-width: 767px)"
+        type="image/webp"
+      />
+      <img
+        class="img-three-steps"
+        src="./images/three-steps-girl-desktop@x1.webp"
+        alt="girl with cabbage"
+      />
+    </picture>
+    <div class="three-steps-right">
+      <h2 class="three-steps-title">
+        3 Easy Steps for Buying Fresh Vegetables
+      </h2>
         <picture>
             <source srcset="./images/three-steps-girl-desktop@x1.webp 1x, ./images/three-steps-girl-desktop@x2.webp 2x"
                 media="(min-width: 1280px)" type="image/webp" />
@@ -27,7 +61,6 @@
                     </div>
                 </li>
             </ol>
-        </div>
-
     </div>
+  </div>
 </section>
