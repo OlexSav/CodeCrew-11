@@ -1,7 +1,9 @@
+.we-will-call-you{
+  padding-bottom: 80px;
+}
 .description-container {
   text-align: center;
-  margin-bottom: 80px;
-}
+  }
 
 .we-will-call-you-title {
   color: var(--primary-text-color);
@@ -74,8 +76,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .description-container {
-    margin-bottom: 172px;
+  .we-will-call-you {
+    padding-bottom: 172px;
   }
 
   .we-will-call-you-title {
@@ -99,10 +101,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .we-will-call-you{
+    padding-bottom: 124px;
+  }
+  
   .description-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 124px;
   }
   .desktop-description-container {
     text-align: start;
