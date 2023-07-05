@@ -17,7 +17,7 @@
   overflow: hidden;
   z-index: 5;
   height: 85%;
-  overflow: scroll;
+  overflow-y: scroll;
   display: block;
 }
 
@@ -354,22 +354,14 @@
   pointer-events: none;
 }
 
-.modal-checkbox-icon {
+.modal-checkbox-icon1 {
   fill: none;
   stroke: #a1c487;
 }
 
-.modal-checkbox-icon1 {
+.modal-checkbox-icon {
   fill: transparent;
   stroke: #a1c487;
-}
-
-.modal-checkbox-input:checked+.modal-checkbox-label .modal-checkbox-icon {
-  display: none;
-}
-
-.modal-checkbox-input:checked+.modal-checkbox-label .modal-checkbox-icon0 {
-  display: none;
 }
 
 .modal-checkbox {

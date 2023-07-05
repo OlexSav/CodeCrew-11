@@ -26,3 +26,20 @@ window.addEventListener('click', event => {
     modal.style.display = 'none';
   }
 });
+
+const modalItems = document.querySelectorAll('li.modal-item');
+
+modalItems.forEach(function (item) {
+  item.addEventListener('click', function () {
+    const firstSvgElement = this.querySelector('svg.modal-checkbox-icon1');
+    const secondSvgElement = this.querySelector('svg.modal-checkbox-icon');
+
+    if (secondSvgElement.style.display !== 'none') {
+      secondSvgElement.style.display = 'none';
+      firstSvgElement.style.display = 'inline-block';
+    } else {
+      secondSvgElement.style.display = 'inline-block';
+      firstSvgElement.style.display = 'none';
+    }
+  });
+});
