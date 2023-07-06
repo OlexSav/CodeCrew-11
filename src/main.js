@@ -2,6 +2,7 @@ const modal = document.querySelector('#myModal');
 const btn = document.querySelector('.btn-order');
 const heroBtn = document.querySelector('.hero-btn');
 const headerButn = document.querySelector('.header-butn');
+const headerBbtnmobile = document.querySelector('.menu-list-btn');
 const btnClose = document.querySelector('.myBtnClose');
 modal.style.display = 'none';
 
@@ -14,6 +15,10 @@ heroBtn.addEventListener('click', () => {
 });
 
 headerButn.addEventListener('click', () => {
+  modal.style.display = 'block';
+});
+
+headerBbtnmobile.addEventListener('click', () => {
   modal.style.display = 'block';
 });
 
