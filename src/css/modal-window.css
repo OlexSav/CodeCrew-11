@@ -16,10 +16,21 @@
     0px 0px 223px 0px rgba(0, 0, 0, 0.05);
   overflow: hidden;
   z-index: 5;
-
+  animation-name: slideUpRight;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
   display: block;
 }
-
+@keyframes slideUpRight {
+  0% {
+    opacity: 0;
+    transform: translate(10%, 100%);
+  }
+  100% {
+    opacity: 19;
+    transform: translateY(10);
+  }
+}
 .modal-checkbox {
   position: relative;
 }
