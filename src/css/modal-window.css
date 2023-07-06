@@ -411,6 +411,14 @@
 }
 .modal-img {
   transition: transform 0.3s ease;
+  bottom: 8px;
+  position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-img {
+    bottom: 14px;
+  }
 }
 
 .modal-item:hover .modal-img {
