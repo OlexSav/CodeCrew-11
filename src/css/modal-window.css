@@ -326,7 +326,16 @@
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .img-girl {
@@ -409,35 +418,4 @@
 }
 .modal-checkbox-label {
   height: 119px;
-  cursor: pointer;
-}
-
-.modal-checkbox-label::after {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-  content: '';
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  border: 2px solid #a1c487;
-  background: transparent;
-  border-radius: 4px;
-}
-
-@media (max-width: 768px) {
-  .modal-checkbox-label::after {
-    width: 16px;
-    height: 16px;
-  }
-}
-
-#buy1:checked + .modal-checkbox-label::after,
-#buy2:checked + .modal-checkbox-label::after,
-#buy3:checked + .modal-checkbox-label::after {
-  content: '\2714';
-  color: #a1c487;
 }
