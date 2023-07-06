@@ -67,7 +67,7 @@
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .modal {
     width: 704px;
     height: 853px;
@@ -208,7 +208,7 @@
   gap: 12px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .list-item {
     flex-direction: row;
     justify-content: space-between;
@@ -220,7 +220,7 @@
   background: #fff;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .box-input_picture-girl {
     display: flex;
     margin-top: 40px;
@@ -246,7 +246,7 @@
   gap: 14px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .input-name_box {
     width: 360px;
   }
@@ -314,7 +314,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .submit {
     width: 114px;
     height: 48px;
