@@ -111,7 +111,8 @@
 
 .form-title {
   color: #141414;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+
   font-size: 28px;
   font-family: DM Sans;
   font-style: normal;
@@ -389,21 +390,22 @@
 
 .modal-checkbox {
   position: relative;
-
-  .modal-checkbox-icon {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    z-index: 3;
-  }
-
-  .modal-checkbox-icon1 {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    z-index: 5;
-  }
 }
+
+.modal-checkbox-icon {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+}
+
+.modal-checkbox-icon1 {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 5;
+}
+
 .modal-item:hover {
   cursor: pointer;
 }
