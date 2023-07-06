@@ -4,7 +4,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   width: 335px;
-  /* min-height: 903px; */
+
   border-radius: 20px;
   background: #fcfcfc;
   padding: 20px;
@@ -16,8 +16,7 @@
     0px 0px 223px 0px rgba(0, 0, 0, 0.05);
   overflow: hidden;
   z-index: 5;
-  height: 85%;
-  overflow-y: scroll;
+
   display: block;
 }
 
@@ -49,6 +48,23 @@
   .modal {
     width: 95%;
   }
+
+  @media screen and (max-height: 910px) {
+    .modal {
+      height: 85%;
+      overflow-y: scroll;
+    }
+  }
+  @media screen and (min-height: 910px) {
+    .modal {
+      height: 903px;
+    }
+  }
+  @media screen and (min-height: 916px) {
+    .modal {
+      height: 911px;
+    }
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -57,24 +73,34 @@
     height: 853px;
     padding: 40px;
     overflow: hidden;
-    height: 85%;
+
     z-index: 5;
 
-    overflow-y: scroll;
     display: block;
   }
-}
-@media screen and (min-height: 911px) {
-  .modal {
-    height: 853px;
+  @media screen and (min-height: 911px) {
+    .modal {
+      height: 853px;
+    }
   }
 }
+@media screen and (max-height: 911px) {
+  .modal {
+    overflow-y: scroll;
+    height: 85%;
+  }
+}
+
 @media screen and (min-width: 1279px) {
   .modal {
     width: 891px;
-    height: 911px;
+
     display: block;
-    overflow-y: hidden;
+  }
+  @media screen and (min-height: 916px) {
+    .modal {
+      height: 911px;
+    }
   }
 }
 
@@ -275,21 +301,17 @@
   line-height: 18px;
   letter-spacing: -0.56px;
   text-transform: capitalize;
-  /*  */
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /*  */
 }
 
-/*  */
 .submit:focus,
 .submit:hover {
   outline: none;
   background-color: #a1c487;
   cursor: pointer;
 }
-
-/*  */
 
 @media screen and (min-width: 767px) {
   .submit {
@@ -315,28 +337,21 @@
   overflow: hidden;
 }
 
-/*  */
 .img-girl {
   display: none;
 }
 
-/*  */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .img-girl {
     position: absolute;
     bottom: 0;
     right: -200px;
-    bottom: -40px;
+    bottom: -38px;
     display: block;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .modal {
-    height: 95%;
-    overflow: auto;
-  }
-
   .img-girl {
     bottom: -38px;
     right: -38px;
@@ -398,4 +413,7 @@
 
 .modal-item:hover .modal-img {
   transform: scale(1.1);
+}
+.modal-checkbox-label {
+  height: 119px;
 }
