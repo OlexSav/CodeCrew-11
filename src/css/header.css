@@ -279,6 +279,12 @@
 .menu-list-icon {
   stroke: #fff;
   fill: transparent;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-list-icon:hover,
+.menu-list-icon:focus {
+  stroke: var(--header-logo-color);
 }
 
 .menu-header-wrap {
