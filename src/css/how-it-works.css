@@ -98,6 +98,8 @@
     letter-spacing: -1.92px;
     text-transform: uppercase;
     width: 614px;
+
+    margin-right: 175px;
   }
 
   .how-it-works {
@@ -107,7 +109,7 @@
 
   .how-it-works-box {
     row-gap: 40px;
-    column-gap: 192px;
+    column-gap: 0;
   }
 
   .how-it-works-desc {
