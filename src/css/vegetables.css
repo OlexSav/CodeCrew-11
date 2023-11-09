@@ -249,7 +249,7 @@
 
   .name-item {
     min-width: calc((100% - 48px) / 3);
-    max-width: 389px;
+    /* max-width: 389px; */
     height: 465px;
   }
 
